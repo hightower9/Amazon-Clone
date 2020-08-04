@@ -12,6 +12,7 @@ function Home() {
 
             <div className="home__row">
                 <Product 
+                    key="1"
                     id="1"
                     title="JavaScript and JQuery: Interactive Front-End Web Development"
                     price={20.53}
@@ -20,6 +21,7 @@ function Home() {
                     />
 
                 <Product 
+                    key="2"
                     id="2"
                     title="Kenwood kMix Stand Mixer for Baking, Stylish Kitchen Mixer with K-beater, Dough Hook and Whisk, 5 Litre Glass Bowl, Removable Splash Guard, 1000 W, Cream"
                     price={250}
@@ -30,6 +32,7 @@ function Home() {
 
             <div className="home__row">
                 <Product 
+                    key="3"
                     id="3"
                     title="Apple Watch Series 3 (GPS, 38mm) - Space Grey Aluminum Case with Black Sport Band"
                     price={179}
@@ -38,6 +41,7 @@ function Home() {
                     />
 
                 <Product 
+                    key="4"
                     id="4"
                     title="Echo Dot (3rd Gen) - Smart speaker with Alexa - Charcoal Fabric"
                     price={29.99}
@@ -46,6 +50,7 @@ function Home() {
                     />
 
                 <Product 
+                    key="5"
                     id="5"
                     title="New Apple iPad Pro (11-inch, Wi-Fi, 128GB) - Silver (2nd Generation)"
                     price={769}
@@ -56,6 +61,7 @@ function Home() {
 
             <div className="home__row">
                 <Product 
+                    key="6"
                     id="6"
                     title="Samsung LC49HG90DMUXEN 49' Curved Ultra Wide LED Monitor - 3840 x 1080, 144Hz, 1ms, Quantum Dot, Freesync, 2 x HDMI, Displayport, USB"
                     price={814.97}
